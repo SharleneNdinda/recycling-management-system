@@ -1,0 +1,33 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.menu-bar {
+    background: #11998e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav-link {
+    font-size: 13px;
+    margin: 3px;
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    font-weight: 600;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: 600;
+    margin-left: 20px;
+}
