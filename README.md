@@ -1,6 +1,6 @@
 # 🚀 Rebotto 🚀
 
-> This project was built using VueJS, PHP, and MySQL as the databse server 🚀
+> This project was built using Laravel framework, PHP, and MySQL as the databse server 🚀
 
 > 🎉🎉 PET Bottle-to-Bottle Recycling Management System 🎉🎉
 
