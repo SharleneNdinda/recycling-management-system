@@ -43,6 +43,7 @@ class AuthenticatedSessionController extends Controller
      */
     public function destroy(Request $request)
     {
+        flashy()->primary('Logged Out Successfully!');
         Auth::guard('web')->logout();
 
         $request->session()->invalidate();

@@ -29,6 +29,13 @@ Route::group(['middleware' => ['auth', 'role:consumer']], function()
     Route::get('/dashboard/myprofile', 'App\Http\Controllers\DashboardController@profile')->name('dashboard.myprofile');
 });
 
+// for collectioncenter roles only
+Route::group(['middleware' => ['auth', 'role:collectioncenter']], function() 
+{
+    Route::get('/deposit', 'App\Http\Controllers\Deposit\DepositController@index')->name('deposit.view');
+    Route::post('/deposit', 'App\Http\Controllers\Deposit\DepositController@store')->name('deposit.create');
+});
+
 
 
 
