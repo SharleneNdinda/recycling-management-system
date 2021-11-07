@@ -24,7 +24,7 @@
         </div>
         <ul class="nav-list">
             <li>
-                <a href="#">
+                <a href="{{route('dashboard')}}">
                     <i class='bx bxs-dashboard' ></i>
                     <span class="links-name">Dashboard</span>
                 </a>
@@ -32,14 +32,24 @@
             </li>
 
              <li>
-                <a href="#">
+                <a href="{{route('users.view')}}">
                    <i class='bx  bxs-user'></i>
                     <span class="links-name">Users</span>
                 </a>
                 <!-- <span class="tooltip">Dashboard</span> -->
             </li>
+
+              <li>
+                <a href="{{route('admin.approve')}}">
+                    <i class='bx bxs-time' ></i>
+                    <span class="links-name">Approve</span>
+                    
+                </a>
+                 
+                <!-- <span class="tooltip">Dashboard</span> -->
+            </li>
              <li>
-                <a href="#">
+                <a href="{{route('reports.view')}}">
                     <i class='bx bxs-book' ></i>
                     <span class="links-name">Reports</span>
                 </a>

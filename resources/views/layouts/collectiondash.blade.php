@@ -43,6 +43,13 @@
             </li>
              <li>
                 <a href="#">
+                    <i class='bx bxs-box' ></i>
+                    <span class="links-name">Inventory</span>
+                </a>
+                <!-- <span class="tooltip">Dashboard</span> -->
+            </li>
+              <li>
+                <a href="{{route('market.show')}}">
                     <i class='bx bxs-shopping-bag' ></i>
                     <span class="links-name">MarketPlace</span>
                 </a>
@@ -63,7 +70,7 @@
                 <!-- <span class="tooltip">Dashboard</span> -->
             </li>
              <li>
-                <a href="#">
+                <a href="{{route('profile.view')}}">
                    <i class='bx bxs-user' ></i>
                     <span class="links-name">Profile</span>
                 </a>

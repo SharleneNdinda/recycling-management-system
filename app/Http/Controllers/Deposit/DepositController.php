@@ -19,9 +19,16 @@ class DepositController extends Controller
             ->where('role_id', '=', 2)
             ->get();
 
+        // count deposits made by currently logged in collection center
+        $deposits = DB::table('deposits')
+        ->where ('collectioncenter_id', '=', Auth::id() )
+        ->get();
+
+        $deposits_count = $deposits->count();
         
-        // return view('collectioncenter.deposit', compact('users'));
-        return view('collectioncenter.deposit', ['users'=>$users]);
+        
+        flashy()->primary('Lets Make a Deposit 🙌 ');
+        return view('collectioncenter.deposit', ['users'=>$users, 'deposits_count'=>$deposits_count]);
     }
 
     public function store(Request $request)
@@ -41,5 +48,14 @@ class DepositController extends Controller
         flashy()->primary('Wohoo! New Deposit!');
 
         return redirect()->route('deposit.view');
+    }
+
+     public function approval()
+
+    {   
+        flashy()->primary('Oh No! Not Approved Yet?');
+
+        return view('collectioncenter.approval');
+
     }
 }
