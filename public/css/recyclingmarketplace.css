@@ -1,0 +1,77 @@
+.form_head {
+    margin-top: 30px;
+    background: #11998e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.depo_form {
+    margin-top: 30px;
+}
+.container {
+    margin-top: 15px;
+}
+.card__row {
+    margin-top: 2rem;
+}
+
+.btn-primary,
+.btn:active {
+    background: #11998e !important; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ) !important; /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none !important;
+}
+
+.card {
+    margin-top: 1rem;
+    width: 250px !important;
+}
+body {
+    overflow-y: auto;
+}
+.input-group {
+    margin-top: 2rem;
+}
+.searchbtn {
+    background: black !important; /* fallback for old browsers */
+    color: white !important;
+    border: none !important;
+}
+.filters {
+    margin-top: 2rem;
+}
+.filters .fiterbtn {
+    background: #11998e !important; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ) !important; /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none !important;
+    color: white !important;
+}

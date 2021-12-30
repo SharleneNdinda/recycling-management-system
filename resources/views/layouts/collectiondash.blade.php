@@ -41,13 +41,38 @@
                 </a>
                 <!-- <span class="tooltip">Dashboard</span> -->
             </li>
-             <li>
-                <a href="#">
-                    <i class='bx bxs-box' ></i>
-                    <span class="links-name">Inventory</span>
+
+              <li>
+                <a href=" {{route('collection_offers.view')}}">
+                   <i class='bx bxs-report'></i>
+                    <span class="links-name">Your Offers</span>
                 </a>
                 <!-- <span class="tooltip">Dashboard</span> -->
             </li>
+
+              <li>
+                <a href=" {{route('collection_orders.view')}}">
+                   <i class='bx bxs-package'></i>
+                    <span class="links-name">Orders</span>
+                </a>
+                <!-- <span class="tooltip">Dashboard</span> -->
+            </li>
+
+               <li>
+                <a href=" {{route('collection_orders.view')}}">
+                    <i class='bx bxs-wallet'></i>
+                    <span class="links-name">Wallet</span>
+                </a>
+                <!-- <span class="tooltip">Dashboard</span> -->
+            </li>
+             <li>
+                <a href=" {{route('dispatch.view')}}">
+                  <i class='bx bxs-truck'></i>
+                    <span class="links-name">Dispatch</span>
+                </a>
+                <!-- <span class="tooltip">Dashboard</span> -->
+            </li>
+            
               <li>
                 <a href="{{route('market.show')}}">
                     <i class='bx bxs-shopping-bag' ></i>
@@ -62,13 +87,7 @@
                 </a>
                 <!-- <span class="tooltip">Dashboard</span> -->
             </li>
-             <li>
-                <a href="#">
-                    <i class='bx bxs-cog' ></i>
-                    <span class="links-name">Settings</span>
-                </a>
-                <!-- <span class="tooltip">Dashboard</span> -->
-            </li>
+             
              <li>
                 <a href="{{route('profile.view')}}">
                    <i class='bx bxs-user' ></i>

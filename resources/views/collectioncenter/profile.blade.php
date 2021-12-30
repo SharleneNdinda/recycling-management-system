@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ asset('css/marketplace.css') }} ">
+    <link rel="stylesheet" href="{{ asset('css/profile.css') }} ">
     <title>Rebotto</title>
 
 </head>
@@ -27,13 +27,17 @@
     </ul>
 </div>
 @endif
+ <div class="col">
+                  <div class="form_head">
+            <h5>Edit Your Profile Here</h5>
+       </div>
   <form  method="POST" action="{{ route('details.create') }}">
     @csrf 
 
     <div class="form-group">
       <label for="exampleInputEmail1">Please Provide Your Business Identification Number</label>
       <input type="number" class="form-control" name="business_number" placeholder="Enter Business Number">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
+      <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else. Wee only use this information to verify your authenticity</small>
     </div>
     <div class="form-group">
       <label for="exampleInputEmail1">Please Provide Your Current Location</label>

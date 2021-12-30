@@ -1,0 +1,31 @@
+.card {
+    background: #11998e !important; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ) !important; /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    height: 150px !important;
+    margin-top: 2rem;
+}
+
+.card-title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.card-link {
+    color: white;
+}
+
+.stocks {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}

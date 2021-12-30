@@ -152,8 +152,8 @@ body {
 .home-content {
     position: absolute;
     height: 100%;
-    width: calc(100% - 240px);
-    left: 150px;
+    width: 100%;
+    left: 50px;
 }
 .home-content .text {
     font-size: 25px;

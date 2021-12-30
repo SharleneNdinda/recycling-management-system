@@ -12,4 +12,8 @@ class Deposit extends Model
         protected $fillable = [
         'consumer_id', 'collectioncenter_id', 'amount',
     ];
+
+     public function user() {
+        return $this->belongsTo('App\Models\User');
+   }
 }

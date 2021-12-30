@@ -1,0 +1,104 @@
+.form_head {
+    margin-top: 30px;
+    background: #11998e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.depo_form {
+    margin-top: 30px;
+}
+.card__row {
+    margin-top: 2rem;
+}
+
+.btn-primary,
+.btn:active {
+    background: #11998e !important; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ) !important; /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none !important;
+    width: 45rem;
+}
+
+.modalsubmit {
+    background: #11998e !important; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ) !important; /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none !important;
+    width: 39.5rem !important;
+}
+
+.card {
+    margin-top: 1rem;
+    width: 250px !important;
+}
+body {
+    overflow-y: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.small__img__row {
+    display: flex;
+    justify-content: space-around;
+}
+.small__img__col {
+    flex-basis: 14%;
+}
+.profile_img {
+    width: 500px;
+    margin-left: -100px;
+}
+
+.col-6 h4 {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.col-6 h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.rate {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}

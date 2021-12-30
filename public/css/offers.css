@@ -1,0 +1,69 @@
+.featured {
+    background: #11998e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 30px;
+    color: white;
+}
+
+.featured .card-header {
+    color: white;
+}
+.featured .btn-primary,
+.btn:active {
+    background: white !important;
+    color: #11998e !important;
+
+    border: none !important;
+}
+.container {
+    margin-top: 2rem;
+}
+
+.empty {
+    border: 5px;
+    text-align: center;
+    margin-top: 25rem;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+body {
+    overflow-y: auto;
+}
+.form_head {
+    margin-top: 30px;
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.view-more {
+    background: #11998e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #38ef7d,
+        #11998e
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 30px;
+    border: none !important;
+}
